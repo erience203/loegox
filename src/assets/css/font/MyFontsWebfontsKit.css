@@ -1,0 +1,35 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4251617, 2021-12-16T18:17:02-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Kamber-Regular by Studio Buchanan
+ * URL: https://www.myfonts.com/fonts/studio-buchanan/kamber/regular/
+ * 
+ * Webfont: Kamber-Bold by Studio Buchanan
+ * URL: https://www.myfonts.com/fonts/studio-buchanan/kamber/bold/
+ * 
+ * 
+ * Webfonts copyright: Copyright © 2018 by Jonathan Gibson. All rights reserved.
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/40dfe1");
+  
+@font-face {
+  font-family: "Kamber-Bold";
+  src: url('webFonts/KamberBold/font.woff2') format('woff2'), url('webFonts/KamberBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Kamber-Regular";
+  src: url('webFonts/KamberRegular/font.woff2') format('woff2'), url('webFonts/KamberRegular/font.woff') format('woff');
+}
+

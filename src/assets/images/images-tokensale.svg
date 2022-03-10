@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1921 634" width="1921" height="634">
+	<title>images-tokensale-svg</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #1f2743 } 
+	</style>
+	<path id="Layer" fill-rule="evenodd" class="shp0" d="M1370.92 72.31L1637.66 -252L1954.17 8.31L1687.43 332.63L1370.92 72.31Z" />
+	<path id="Layer" fill-rule="evenodd" class="shp0" d="M548.48 172.04L797.48 359.04L380.66 866.08L136 660.64L548.48 172.04Z" />
+	<path id="Layer" fill-rule="evenodd" class="shp0" d="M665.48 118.04C751.64 118.04 821.48 187.88 821.48 274.04C821.48 360.19 751.64 430.04 665.48 430.04C579.33 430.04 509.48 360.19 509.48 274.04C509.48 187.88 579.33 118.04 665.48 118.04Z" />
+</svg>

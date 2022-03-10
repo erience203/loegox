@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 791" width="1920" height="791">
+	<title>images-banner-bg-svg</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #1f2743 } 
+	</style>
+	<path id="Layer" fill-rule="evenodd" class="shp0" d="M1625 205C1652.61 205 1675 227.39 1675 255C1675 282.61 1652.61 305 1625 305C1597.39 305 1575 282.61 1575 255C1575 227.39 1597.39 205 1625 205Z" />
+	<path id="Layer" fill-rule="evenodd" class="shp0" d="M992 602C1019.61 602 1042 624.39 1042 652C1042 679.61 1019.61 702 992 702C964.39 702 942 679.61 942 652C942 624.39 964.39 602 992 602Z" />
+	<path id="Layer" fill-rule="evenodd" class="shp0" d="M1242 624L1430 420L1898 791L1453 791L1242 624Z" />
+	<path id="Layer" fill-rule="evenodd" class="shp0" d="M1339 386C1415.77 386 1478 448.23 1478 525C1478 601.77 1415.77 664 1339 664C1262.23 664 1200 601.77 1200 525C1200 448.23 1262.23 386 1339 386Z" />
+	<path id="Layer" fill-rule="evenodd" class="shp0" d="M1026.5 -188C1171.47 -188 1289 -70.47 1289 74.5C1289 219.47 1171.47 337 1026.5 337C881.53 337 764 219.47 764 74.5C764 -70.47 881.52 -188 1026.5 -188Z" />
+	<path id="Layer" fill-rule="evenodd" class="shp0" d="M125.87 275L394.98 620.93L63.13 879.02L-205.98 533.1L125.87 275Z" />
+	<path id="Layer" fill-rule="evenodd" class="shp0" d="M273 105C300.61 105 323 127.39 323 155C323 182.61 300.61 205 273 205C245.39 205 223 182.61 223 155C223 127.39 245.39 105 273 105Z" />
+</svg>

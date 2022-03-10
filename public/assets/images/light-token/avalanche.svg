@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+	<title>avalanche (1)-svg</title>
+	<style>
+		tspan { white-space:pre }
+		.s0 { fill: #ed213a } 
+		.s1 { fill: #ffffff } 
+	</style>
+	<g id="Layer">
+		<path id="Layer" class="s0" d="m32 64c-17.7 0-32-14.3-32-32c0-17.7 14.3-32 32-32c17.7 0 32 14.3 32 32c0 17.7-14.3 32-32 32z" />
+		<path id="Layer" class="s1" d="m43.29 32.83c1.11-1.91 2.9-1.91 4.01 0l6.9 12.12c1.11 1.91 0.2 3.48-2.02 3.48h-13.91c-2.19 0-3.1-1.56-2.02-3.48l7.03-12.12h0.01zm-13.35-23.33c1.11-1.91 2.87-1.91 3.98 0l1.54 2.77l3.63 6.37c0.88 1.81 0.88 3.96 0 5.77l-12.17 21.09c-1.11 1.71-2.95 2.8-4.99 2.92h-10.1c-2.22 0-3.12-1.54-2.02-3.48l20.13-35.45l0 0.01z" />
+	</g>
+</svg>

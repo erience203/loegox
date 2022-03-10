@@ -17,7 +17,7 @@ const headers = {
     'Access-Control-Allow-Origin': '*',
 };
 
-const api_url = "https://test.erience.co/";
+const api_url = "https://legox.xyz/test/";
 
 const Presale = () => {
     const context = useWeb3React();

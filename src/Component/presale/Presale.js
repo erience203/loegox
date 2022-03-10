@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { ethers } from "ethers";
 import axios from 'axios';
 import { useWeb3React } from "@web3-react/core";
 import { Modal, Form, Table, Card, InputGroup, FormControl } from 'react-bootstrap';
@@ -9,6 +8,7 @@ import { bnb_rate, btc_rate, eth_rate, usdt_rate, matic_rate, current_phase, tot
 import { BEP_USDT, ERC_USDT, CRONOS_USDT, BNB, ETH, MATIC, BEP_BTC, ERC_BTC, getTokenContract } from './constant';
 import { setupNetwork } from "../helper/connectors";
 import copy from 'copy-text-to-clipboard';
+const {    parseUnits, parseEther } = require("@ethersproject/units");
 var qs = require('qs');
 
 
@@ -146,7 +146,7 @@ const Presale = () => {
                                 let provider = library.getSigner()
                                 await provider.sendTransaction({
                                     "to": contract.recevier,
-                                    "value": ethers.utils.parseUnits(amount)
+                                    "value": parseUnits(amount)
                                 }).then(async (result) => {
                                     if (result) {
                                         toast.success(`Transaction create successfully!`)
@@ -206,7 +206,7 @@ const Presale = () => {
                             if (parseFloat(token_balance) > 0 && parseFloat(token_balance) > parseFloat(amount)) {
 
 
-                                let value = ethers.utils.parseEther(amount);
+                                let value = parseEther(amount);
                                 token_contract.transfer(contract.recevier, value.toString())
                                     .then(async (result) => {
                                         toast.success(`Transaction create successfully!`)

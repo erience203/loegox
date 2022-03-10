@@ -1,29 +1,29 @@
 import React, { useEffect, useState } from "react";
 import { chain_info } from "./chain";
-import {
-  NoEthereumProviderError,
-  UserRejectedRequestError as UserRejectedRequestErrorInjected,
-} from "@web3-react/injected-connector";
+// import {
+//   NoEthereumProviderError,
+//   UserRejectedRequestError as UserRejectedRequestErrorInjected,
+// } from "@web3-react/injected-connector";
 
-import { UserRejectedRequestError as UserRejectedRequestErrorWalletConnect } from "@web3-react/walletconnect-connector";
+// import { UserRejectedRequestError as UserRejectedRequestErrorWalletConnect } from "@web3-react/walletconnect-connector";
 import { injected, setupNetwork, useInactiveListener } from "./connectors";
-import { useWeb3React, UnsupportedChainIdError } from "@web3-react/core";
-import { toast } from "wc-toast";
+import { useWeb3React } from "@web3-react/core";
+// import { toast } from "wc-toast";
 
 
-function getErrorMessage(error) {
-  if (error instanceof NoEthereumProviderError) {
-     toast.error("No Ethereum browser extension detected, install MetaMask on desktop or visit from a dApp browser on mobile.");
-  }
-  if (error instanceof UnsupportedChainIdError) {
-     toast.error("You're connected to an Unknown network.");
-  }
-  if (error instanceof UserRejectedRequestErrorInjected || error instanceof UserRejectedRequestErrorWalletConnect) {
-     toast.error("Please authorize this website to access your Ethereum account.");
-  }
-  console.log(error);
-   toast.error("An unknown error occurred. Check the console for more details.");
-}
+// function getErrorMessage(error) {
+//   if (error instanceof NoEthereumProviderError) {
+//      toast.error("No Ethereum browser extension detected, install MetaMask on desktop or visit from a dApp browser on mobile.");
+//   }
+//   if (error instanceof UnsupportedChainIdError) {
+//      toast.error("You're connected to an Unknown network.");
+//   }
+//   if (error instanceof UserRejectedRequestErrorInjected || error instanceof UserRejectedRequestErrorWalletConnect) {
+//      toast.error("Please authorize this website to access your Ethereum account.");
+//   }
+//   console.log(error);
+//    toast.error("An unknown error occurred. Check the console for more details.");
+// }
 
 
 
@@ -61,7 +61,7 @@ const NetworkButton = () => {
 
   return (
     <>
-      <div>{!!error && <span className="text-danger" style={{ marginTop: "1rem", marginBottom: "0" }}>{getErrorMessage(error)}</span>}</div>
+      {/* <div>{!!error && <span className="text-danger" style={{ marginTop: "1rem", marginBottom: "0" }}>{getErrorMessage(error)}</span>}</div> */}
       { (!connected(injected) &&
         <button
           type="button"

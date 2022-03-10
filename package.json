@@ -2,7 +2,6 @@
   "name": "hostinger-react",
   "version": "1.0.0",
   "description": "my react application",
-  "homepage": "https://legox.xyz/test/",
   "dependencies": {
     "@ethersproject/bignumber": "^5.5.0",
     "@ethersproject/contracts": "^5.5.0",

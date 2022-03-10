@@ -35,7 +35,7 @@ const NetworkButton = () => {
 
   const activating = (connection) => connection === activatingConnector;
   const connected = (connection) => connection === connector;
-  const disabled = !!activatingConnector || connected(injected) || !!error;
+  const disabled = (!!activatingConnector || connected(injected) || !!error);
 
   useInactiveListener(!!activatingConnector);
 
@@ -62,7 +62,7 @@ const NetworkButton = () => {
   return (
     <>
       <div>{!!error && <span className="text-danger" style={{ marginTop: "1rem", marginBottom: "0" }}>{getErrorMessage(error)}</span>}</div>
-      { !connected(injected) &&
+      { (!connected(injected) &&
         <button
           type="button"
           className="lego-button"
@@ -72,11 +72,11 @@ const NetworkButton = () => {
           }
         >
           Connect Wallet
-        </button>
+        </button>)
 
         ||
         
-        activating(injected) && <p className="lego-button">loading...</p>
+        (activating(injected) && <p className="lego-button">loading...</p>)
       }
 
       

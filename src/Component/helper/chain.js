@@ -1,15 +1,15 @@
 export const chain_info = {
-    "1" : {
+    "3" : {
         "symbol" : "ETH",
-        "chainId" : 1,
+        "chainId" : 3,
         "ChainName" : "Etherum MainNet",
         "rpcUrls" : "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
     },
-    "56" : {
+    "97" : {
         "symbol" : "BNB",
-        "chainId" : 56,
+        "chainId" : 97,
         "ChainName" : "Binance Smart Chain Mainnet",
-        "rpcUrls" : "https://bsc-dataseed.binance.org/"
+        "rpcUrls" : "https://data-seed-prebsc-1-s1.binance.org:8545/"
     },
     "137" : {
         "symbol" : "MATIC",
@@ -17,11 +17,11 @@ export const chain_info = {
         "ChainName" : "Polygon Mainnet",
         "rpcUrls" : "https://rpc-mainnet.maticvigil.com/"
     },
-    "25" : {
+    "338" : {
         "symbol" : "CRO",
-        "chainId" : 25,
+        "chainId" : 338,
         "ChainName" : "Cronos Mainnet",
-        "rpcUrls" : "https://evm.cronos.org"
+        "rpcUrls" : "https://cronos-testnet-3.crypto.org:8545"
     },
     "80001" : {
         "symbol" : "Matic",

@@ -3,12 +3,12 @@ const TokenABI = [{"inputs":[],"payable":false,"stateMutability":"nonpayable","t
 
 
 export const BEP_USDT = {
-    "token": "0x55d398326f99059fF775485246999027B3197955",
+    "token": "0x61b2796F30cD84036f6D85f5d86972de1D48a17e",
     "recevier": "0x920C5684452A43fdf128545c38d5aC6cE7408574",
     "decimal": 18
 };
 export const ERC_USDT = {
-    "token": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "token": "0xDBC941fEc34e8965EbC4A25452ae7519d6BDfc4e",
     "recevier": "0x920C5684452A43fdf128545c38d5aC6cE7408574",
     "decimal": 6
 };
@@ -21,14 +21,14 @@ export const BNB = { "recevier": "0x920C5684452A43fdf128545c38d5aC6cE7408574" };
 export const ETH = { "recevier": "0x920C5684452A43fdf128545c38d5aC6cE7408574" };
 export const MATIC = { "recevier": "0x920C5684452A43fdf128545c38d5aC6cE7408574" };
 export const BEP_BTC = {
-    "token": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+    "token": "0x61b2796F30cD84036f6D85f5d86972de1D48a17e",
     "recevier": "0x920C5684452A43fdf128545c38d5aC6cE7408574",
     "decimal": 18
 };
 export const ERC_BTC = {
-    "token": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+    "token": "0xDBC941fEc34e8965EbC4A25452ae7519d6BDfc4e",
     "recevier": "0x920C5684452A43fdf128545c38d5aC6cE7408574",
-    "decimal": 8
+    "decimal": 6
 };
 
 

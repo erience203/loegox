@@ -53,7 +53,7 @@ const Presale = () => {
             setRecevicedtoken((parseFloat(amount * usdt_rate)).toFixed(4));
             setContract(BEP_USDT);
             setIstransfer(2);
-            setSelectchain(56);
+            setSelectchain(97);
             setType("BEP_USDT");
         }
         else if (e.target.value === 'usdt_erc') {
@@ -61,7 +61,7 @@ const Presale = () => {
             setRecevicedtoken((parseFloat(amount * usdt_rate)).toFixed(4));
             setContract(ERC_USDT);
             setIstransfer(2);
-            setSelectchain(1);
+            setSelectchain(3);
             setType("ERC_USDT");
         }
         else if (e.target.value === 'usdt_cronos') {
@@ -69,7 +69,7 @@ const Presale = () => {
             setRecevicedtoken((parseFloat(amount * usdt_rate)).toFixed(4));
             setContract(CRONOS_USDT)
             setIstransfer(2);
-            setSelectchain(25);
+            setSelectchain(338);
             setType("CRONOS_USDT");
         }
         else if (e.target.value === 'bnb') {
@@ -77,7 +77,7 @@ const Presale = () => {
             setRecevicedtoken((parseFloat(amount * bnb_rate)).toFixed(4));
             setContract(BNB);
             setIstransfer(1);
-            setSelectchain(56);
+            setSelectchain(97);
             setType("BNB");
         }
         else if (e.target.value === 'matic') {
@@ -85,7 +85,7 @@ const Presale = () => {
             setRecevicedtoken((parseFloat(amount * matic_rate)).toFixed(4));
             setContract(MATIC);
             setIstransfer(1);
-            setSelectchain(137);
+            setSelectchain(80001);
             setType("MATIC");
         }
         else if (e.target.value === 'btc_erc') {
@@ -93,7 +93,7 @@ const Presale = () => {
             setRecevicedtoken((parseFloat(amount * btc_rate)).toFixed(4));
             setContract(ERC_BTC)
             setIstransfer(2);
-            setSelectchain(1);
+            setSelectchain(3);
             setType("ERC_BTC");
 
         }
@@ -102,7 +102,7 @@ const Presale = () => {
             setRecevicedtoken((parseFloat(amount * btc_rate)).toFixed(4));
             setContract(BEP_BTC);
             setIstransfer(2);
-            setSelectchain(56);
+            setSelectchain(97);
             setType("BEP_BTC");
         }
         else if (e.target.value === 'eth') {
@@ -110,7 +110,7 @@ const Presale = () => {
             setRecevicedtoken((parseFloat(amount * eth_rate)).toFixed(4));
             setContract(ETH);
             setIstransfer(1);
-            setSelectchain(1);
+            setSelectchain(3);
             setType("ETH");
         }
         else {
@@ -118,7 +118,7 @@ const Presale = () => {
             setRecevicedtoken(0);
             setContract(BEP_USDT);
             setIstransfer(2);
-            setSelectchain(56);
+            setSelectchain(97);
         }
     }
 

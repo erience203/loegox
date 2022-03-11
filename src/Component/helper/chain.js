@@ -3,7 +3,7 @@ export const chain_info = {
         "symbol" : "ETH",
         "chainId" : 3,
         "ChainName" : "Etherum MainNet",
-        "rpcUrls" : "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+        "rpcUrls" : "https://ropsten.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
     },
     "97" : {
         "symbol" : "BNB",
